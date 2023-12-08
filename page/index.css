@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 
 * {
   margin: 0;
@@ -12,13 +12,20 @@ section {
   min-height: 100vh;
   width: 100%;
   background: #1fba41;
+  background: url(../assets/imgs/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box-form {
   position: relative;
-  width: 400px;
-  height: 450px;
-  background: #b65cbe;
+  width: 380px;
+  height: 440px;
+  background: linear-gradient(180deg, rgba(151, 39, 39, 0.30) 0%, rgba(43, 10, 58, 0.28) 48.96%, rgba(7, 2, 2, 0.00) 100%);
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  backdrop-filter: blur(4px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,8 +52,9 @@ section {
 }
 
 input:focus ~ label,
-input:focus ~ :valid {
-  top: -25px;
+input:valid ~ label,
+input:not(:placeholder-shown) ~ label  {
+  top: -20px;
 }
 
 .input-box input {
@@ -81,7 +89,7 @@ input:focus ~ :valid {
 }
 
 .remember-me a:hover {
-  color: rgb(83, 81, 81);
+  text-decoration: underline;
 }
 
 .button-wrapper {
@@ -98,13 +106,14 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1em;
-  font-family: 'Poppins';
+  font-family: 'Commissioner';
   font-weight: normal;
   color: #FFFFFF;
 }
 
 button:hover{
   background: #a5084c;
+  transition: 0.5s;
 }
 
 .register-now {
@@ -123,7 +132,7 @@ button:hover{
 }
 
 .register-now p a:hover {
-  color: rgb(83, 81, 81);
+ text-decoration: underline;
 }
 
 
@@ -136,7 +145,7 @@ img {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.9em;
   color: #FFFFFF;
   font-family: 'Poppins';
   text-align: center;
