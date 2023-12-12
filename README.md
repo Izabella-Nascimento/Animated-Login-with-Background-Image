@@ -1,7 +1,7 @@
 <h1 align="center">Animated Login with Background Image</h1>
 
 <p align="center">
-    <img alt="Badge indicando que o projeto foi criado em Dezembro de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Dezembro%2F2023-6A2865">
+    <img alt="Badge indicando que o projeto foi criado em Dezembro de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Dezembro%2F2023-782664">
     <img alt="Badge indicando que o status do projeto é 'Em Progresso'" src="https://img.shields.io/badge/Status-Em Progresso-yellow">
 </p>
 
@@ -16,12 +16,12 @@
 </p>
 
 <p align="center">
-   <img src="" alt="gif mostrando o funcionamento da landing page" /> 
+   <img src="./assets/imgs/Animated Login With B-I.gif" alt="gif mostrando o funcionamento da landing page" /> 
 </p>
 
 <h2 id="como acessar"> :computer_mouse: Como acessar?</h2>
 
-Confira e utilize o projeto no <a href="">github pages</a>.
+Confira e utilize o projeto no <a href="https://izabella-nascimento.github.io/Animated-Login-with-Background-Image/page/index">github pages</a>.
 
 
 <h2 id="descricao">:pencil2: Descrição</h2>
