@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-   <img src="./assets/imgs/Animated Login With B-I.gif" alt="gif mostrando o funcionamento da landing page" /> 
+   <img src="./assets/imgs/Gif of the page.gif" alt="gif mostrando o funcionamento da landing page" /> 
 </p>
 
 <h2 id="como acessar"> :computer_mouse: Como acessar?</h2>
