@@ -51,9 +51,8 @@ section {
   transition: .5s;
 }
 
-input:focus ~ label,
 input:valid ~ label,
-input:not(:placeholder-shown) ~ label  {
+input:focus ~ label {
   top: -20px;
 }
 
